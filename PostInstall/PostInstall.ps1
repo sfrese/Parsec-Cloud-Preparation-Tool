@@ -938,7 +938,7 @@ Write-Host -foregroundcolor red "
                     Google T4  VW    (Tesla T4 Virtual Workstation)
 
 "   
-#PromptUserAutoLogon -DontPromptPasswordUpdateGPU:$DontPromptPasswordUpdateGPU
+PromptUserAutoLogon -DontPromptPasswordUpdateGPU:$DontPromptPasswordUpdateGPU
 $ScripttaskList = @(
 "setupEnvironment";
 "addRegItems";
